@@ -1,0 +1,140 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    Size: 16px;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.title-first {
+    text-decoration: none;
+    color: #4D5AE5;
+    line-height: 117%;
+}
+.title-first-name {
+    color: #2E2F42;
+}
+.page-nav {
+    list-style-type: none;
+}
+.page-nav .link-nav {
+color: #434455;
+text-decoration: none;
+line-height: 150%;
+}
+.page-nav .link-nav:hover,
+.page-nav .link-nav:active {
+color: #404BBF ;
+}
+.address {
+    list-style-type: none;
+}
+.address .link-address {
+color: #434455;
+text-decoration: none;
+line-height: 150%;
+}
+.address .link-address:hover{
+    color: #404BBF;
+}
+.section-1 {
+    background-color: #2E2F42;
+}
+.title {
+    line-height: 107%;
+    font-weight: 700;
+    color: #F4F4FD;
+    Size: 56px
+    
+}
+.button {
+    line-height: 150%;
+    font-weight: 500;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+    Size: 16px
+}
+.button:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+.Benefits {
+    list-style-type: none;
+}
+.Benefits > h3 {
+font-size: 20px;
+font-weight: 500;
+line-height: 120%;
+}
+.Benefits > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.section-3 {
+    background-color: #F4F4FD;
+}
+.section-3 .team {
+    list-style-type: none;
+}
+.section-3 .team > li {
+    
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background-color: #FFFFFF;
+}
+.section-3 .team > h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+}
+.section-3 .team > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+.section-4 .h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 111%;
+}
+.section-4 .Portfolio {
+    list-style-type: none;
+    background-color: #FFFFFF;
+}
+.section-4 .Portfolio > li {
+    width: 360px;
+    height: 420px;
+    border: 1px solid var(#E7E9FC);
+    background-color: #F4F4FD;
+}
+.section-4 .Portfolio > h3 {
+font-weight: 500;
+font-size: 20px;
+color: #2E2F42;
+line-height: 120%;
+
+}
+.section-4 .Portfolio > p {
+font-weight: 400;
+font-size: 16px;
+color: #434455;
+line-height: 150%;
+}
+.footer {
+    background-color: #2E2F42;
+}
+.footer .title-second {
+    color: #4D5AE5;
+    text-decoration: none;
+    line-height: 117%;
+}
+.footer .title-second-name {
+    color: #FFFFFF;
+}
+.footer .text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #F4F4FD;
+    line-height: 150%;
+}
