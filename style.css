@@ -5,9 +5,14 @@ body {
     background-color: #FFFFFF;
 }
 .title-first {
+    letter-spacing: 0.03em;
+    font-size: 18px;
     text-decoration: none;
     color: #4D5AE5;
     line-height: 117%;
+    font-family: "Raleway", sans-serif ;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .title-first-name {
     color: #2E2F42;
@@ -16,125 +21,149 @@ body {
     list-style-type: none;
 }
 .page-nav .link-nav {
-color: #434455;
+letter-spacing: 0.02em;
+font-weight: 500;
+color: #2e2f42;
 text-decoration: none;
 line-height: 150%;
 }
 .page-nav .link-nav:hover,
-.page-nav .link-nav:active {
+.page-nav .link-nav:active,
+.page-nav .link-nav:focus {
 color: #404BBF ;
 }
 .address {
     list-style-type: none;
+    font-style: normal
 }
-.address .link-address {
+.address-list .link-address {
 color: #434455;
 text-decoration: none;
 line-height: 150%;
+letter-spacing: 0.02em
 }
-.address .link-address:hover{
+.address-list .link-address:hover,
+.address-list .link-address:focus {
     color: #404BBF;
 }
-.section-1 {
+.section-first {
     background-color: #2E2F42;
 }
-.title {
+.section-first .title {
+    font-size: 56px;
     line-height: 107%;
     font-weight: 700;
-    color: #F4F4FD;
-    Size: 56px
-    
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .button {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
     line-height: 150%;
     font-weight: 500;
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
-    Size: 16px
+    letter-spacing: 0.04em;
 }
-.button:hover {
+.button:hover,
+.button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 }
-.Benefits {
+.section-second .Benefits-list  {
     list-style-type: none;
 }
-.Benefits > h3 {
+
+.section-second .Benefits-list .Benefits {
 font-size: 20px;
 font-weight: 500;
 line-height: 120%;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
-.Benefits > p {
+.section-second .Benefits-list .Benefits .text-second{
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.section-3 {
+.section-third {
     background-color: #F4F4FD;
 }
-.section-3 .team {
-    list-style-type: none;
+.section-third .title-third {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42 ;
 }
-.section-3 .team > li {
-    
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+.section-third .team {
+    list-style-type: none;
     background-color: #FFFFFF;
 }
-.section-3 .team > h3{
+.section-third .team .list-third{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
+    letter-spacing: 0.02em;
+    color:#2e2f42 ;
 }
-.section-3 .team > p {
+.section-third .team .text-third {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+    letter-spacing: 0.02em;
 }
-.section-4 .h2 {
+.section-fourth .Portfolio {
     font-size: 36px;
     font-weight: 700;
     line-height: 111%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42 ;
 }
-.section-4 .Portfolio {
+.section-fourth .Portfolio-list {
     list-style-type: none;
-    background-color: #FFFFFF;
-}
-.section-4 .Portfolio > li {
-    width: 360px;
-    height: 420px;
-    border: 1px solid var(#E7E9FC);
     background-color: #F4F4FD;
 }
-.section-4 .Portfolio > h3 {
+
+.section-fourth .Portfolio-list .list-fourth {
 font-weight: 500;
 font-size: 20px;
 color: #2E2F42;
 line-height: 120%;
-
+letter-spacing: 0.02em;
 }
-.section-4 .Portfolio > p {
+.section-fourth .Portfolio-list .text-fourth {
 font-weight: 400;
-font-size: 16px;
-color: #434455;
 line-height: 150%;
+letter-spacing: 0.02em;
 }
 .footer {
     background-color: #2E2F42;
 }
-.footer .title-second {
+.footer .title-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
     line-height: 117%;
 }
 .footer .title-second-name {
-    color: #FFFFFF;
+    color: #f4f4fd;
 }
-.footer .text {
+.footer .text-footer {
     font-weight: 400;
     font-size: 16px;
     color: #F4F4FD;
     line-height: 150%;
+    letter-spacing: 0.02em;
 }
