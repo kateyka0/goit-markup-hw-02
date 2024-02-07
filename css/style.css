@@ -33,8 +33,10 @@ line-height: 150%;
 color: #404BBF ;
 }
 .address {
-    list-style-type: none;
     font-style: normal
+}
+.address .address-list {
+    list-style-type: none;
 }
 .address-list .link-address {
 color: #434455;
