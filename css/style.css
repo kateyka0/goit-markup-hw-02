@@ -105,10 +105,10 @@ color: #2e2f42;
 }
 .section-third .team-list {
     list-style-type: none;
-    background-color: #FFFFFF;
+    
 }
-.section-third .team-list .img {
-    background-color: #FFFFFF;
+.section-third .team-list-li {
+background-color: #FFFFFF;
 }
 .section-third .team-list .list-third{
     font-weight: 500;
