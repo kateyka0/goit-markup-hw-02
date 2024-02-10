@@ -1,13 +1,25 @@
+ ul, ol  {
+    list-style-type: none;
+ }
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     Size: 16px;
     color: #434455;
     background-color: #FFFFFF;
 }
+ /*navigation*/
 .title-first {
     letter-spacing: 0.03em;
     font-size: 18px;
-    text-decoration: none;
     color: #4D5AE5;
     line-height: 117%;
     font-family: "Raleway", sans-serif ;
@@ -17,14 +29,11 @@ body {
 .title-first-name {
     color: #2E2F42;
 }
-.page-nav {
-    list-style-type: none;
-}
+
 .page-nav .link-nav {
 letter-spacing: 0.02em;
 font-weight: 500;
 color: #2e2f42;
-text-decoration: none;
 line-height: 150%;
 }
 .page-nav .link-nav:hover,
@@ -32,16 +41,13 @@ line-height: 150%;
 .page-nav .link-nav:focus {
 color: #404BBF ;
 }
+/*address*/
 .address {
-
     font-style: normal
 }
-.address .address-list {
-    list-style-type: none;
-}
+
 .address-list .link-address {
 color: #434455;
-text-decoration: none;
 line-height: 150%;
 letter-spacing: 0.02em
 }
@@ -49,6 +55,7 @@ letter-spacing: 0.02em
 .address-list .link-address:focus {
     color: #404BBF;
 }
+/*section 1*/
 .section-first {
     background-color: #2E2F42;
 }
@@ -67,7 +74,6 @@ letter-spacing: 0.02em
     font-weight: 500;
     background-color: #4D5AE5;
     color: #FFFFFF;
-    cursor: pointer;
     letter-spacing: 0.04em;
 }
 .button:hover,
@@ -75,10 +81,8 @@ letter-spacing: 0.02em
     background-color: #404BBF;
     color: #FFFFFF;
 }
-.section-second .benefits-list  {
-    list-style-type: none;
-}
 
+/*section 2*/
 .section-second .benefits-list .title-second {
 font-size: 20px;
 font-weight: 500;
@@ -92,6 +96,7 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/*section 3*/
 .section-third {
     background-color: #F4F4FD;
 }
@@ -103,10 +108,7 @@ color: #2e2f42;
     text-transform: capitalize;
     color:#2e2f42 ;
 }
-.section-third .team-list {
-    list-style-type: none;
-    
-}
+
 .section-third .team-list-li {
 background-color: #FFFFFF;
 }
@@ -123,6 +125,7 @@ background-color: #FFFFFF;
     line-height: 150%;
     letter-spacing: 0.02em;
 }
+/*section 4*/
 .section-fourth .Portfolio {
     font-size: 36px;
     font-weight: 700;
@@ -132,8 +135,7 @@ background-color: #FFFFFF;
     text-transform: capitalize;
     color:#2e2f42 ;
 }
-.section-fourth .Portfolio-list {
-    list-style-type: none;
+.section-fourth .Portfolio-list { 
     background-color: #F4F4FD;
 }
 
@@ -149,6 +151,7 @@ font-weight: 400;
 line-height: 150%;
 letter-spacing: 0.02em;
 }
+/*footer*/
 .footer {
     background-color: #2E2F42;
 }
@@ -159,7 +162,6 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    text-decoration: none;
     line-height: 117%;
 }
 .footer .title-second-name {
